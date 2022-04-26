@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&family=Montserrat:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&family=Raleway:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&family=Montserrat:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&family=Raleway:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="icon" href="./favicon.png" type="image/png">
     <title>SuperWatermelon</title>
 </head>
 <body>
@@ -18,52 +19,59 @@
             </div>
             <h1>Superwatermelon</h1>
             <ul>
-                <li><a href="#">Mission</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Team</a></li>
+                <li><a href="#mission">Mission</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#team">Team</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <section class="about">
+        <section class="about" id="mission">
                 <div class="banner">
                     <div class="banner-card">
                         <h2>Software Engineering</h2>
                         <p class="sub-heading">We help you deliver software using gamification methods. Whilst bringing our expertise in productivity, attention to detail and teamwork. </p>
+                
                         <button>Free Consult</button>
                         <button>Portfolio</button>
                     </div>
                     <div class="banner-card">
-                        <img src="./About.jpg" alt="various gaming technology and consoles">
+                        <img src="./scene-sketch.jpg" alt="sketch of a game scene structure">
                     </div>
                 </div>
         </section>
-        <section class="portfolio">
+        <section class="portfolio" id="portfolio">
             <h2>Portfolio</h2>
             <div class="projects">
                 <div class="project-card">
-                    <img src="./Placeholder.png" alt="thumbanil of legends of rome game">
+                    <img src="./legends-of-rome.jpg" alt="thumbanil of legends of rome game">
                     <h3>Legends of rome</h3>
                     <p>Our first game utilises etc.</p>
                 </div>
                 <div class="project-card">
-                    <img src="./Placeholder.png" alt="thumbanil of legends of rome game">
+                    <img src="./gaming-code.jpg" alt="image of laptop with code on the screen">
                     <h3>Legends of rome</h3>
                     <p>Our first game utilises etc.</p>
                 </div>
                 <div class="project-card">
-                    <img src="./Placeholder.png" alt="thumbanil of legends of rome game">
+                    <img src="./game-concept.jpg" alt="pixal game image of fighter infront of cherry blossom">
                     <h3>Legends of rome</h3>
                     <p>Our first game utilises etc.</p>
                 </div>
             </div>
         </section>
-        <section class="team">
+        <section class="team" id="team">
+            <h2>The Team</h2>
             <div class="employees">
                 <div class="individual">
-                    <img src="" alt="picture of Stuart Wakefield">
-                    <h3>Name</h3>
-                    <p>Role</p>
+                    <img src="./employees/Stuart.jpeg" alt="picture of Stuart Wakefield">
+                    <h3>Stuart Wakefield</h3>
+                    <p>Director, Technical Lead (full-stack), Head of design</p>
+                </div>
+                <div class="individual">
+                    <img src="./employees/Natalie.jpg" alt="picture of Natalie Waites">
+                    <h3>Natalie Waites</h3>
+                    <p>Managing Director, Junior Developer, UI UX designer</p>
                 </div>
             </div>
         </section>
@@ -71,7 +79,16 @@
 
     
     <footer>
-
+        <div class="contact">
+            <div class="logo">
+                <img src="./SuperwatermelonLogo.png" alt="Superwatermelon company logo">
+            </div>
+            <h1>Superwatermelon</h1>
+            <p>info@superwatermelon.com</p>
+        </div>
+        <div class="copyright">
+            <p>© 2022 Superwatermelon. All rights reserved.</p>
+        </div>   
     </footer>
 </body>
 </html>
