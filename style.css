@@ -57,6 +57,7 @@ h2 {
     font-weight: 300;
     text-transform: uppercase;
     letter-spacing: 2px;
+    font-family: raleway, sans-serif;
 }
 
 .sub-heading {
@@ -116,6 +117,8 @@ button {
 h3 {
     color: rgb(245, 245, 245);
     text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 300;
 }
 
 .project-card {
