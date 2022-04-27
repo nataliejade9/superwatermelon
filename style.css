@@ -92,7 +92,7 @@ h2 {
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-    padding: 2em 0;
+    padding: 2em 2em;
 }
 
 .banner-card {
@@ -214,10 +214,8 @@ h3 {
 }
 
 .project-card img {
-    max-width: 300px;
-    margin: 25px 50px 0;
-    justify-content: center;
-    border: 1px solid rgb(67, 56, 48);
+    width: 100%;
+    border: 2px solid rgb(67, 56, 48);
 }
 
 .socials {
@@ -265,7 +263,6 @@ h3 {
 
 .individual img {
     border-radius: 50%;
-   
 }
 
 .individual > * {
