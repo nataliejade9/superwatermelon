@@ -205,6 +205,12 @@ h3 {
     border: 2px solid rgb(230, 221, 216);
     background-color: rgb(245, 245, 245);
     max-width: 400px;
+    transition: all 0.30s ease-in-out;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+    background-color: rgb(230, 221, 216);
 }
 
 .project-card img {
@@ -217,7 +223,7 @@ h3 {
 .socials {
     background-color: rgb(230, 221, 216);
     margin: 0;
-    padding: 3em 0 2em;
+    padding: 3em 2em 2em;
 }
 
 .socials img {
@@ -241,6 +247,7 @@ h3 {
 
 .team {
     background-color: rgb(242, 36, 80, 0.9);
+    padding: 2em 0;
 }
 
 .team h3 {
@@ -252,7 +259,7 @@ h3 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 2em 0;
+    padding: 4em 0;
     gap: 4em;
 }
 
@@ -263,7 +270,7 @@ h3 {
 
 .individual > * {
     flex: 1 1 100%;
-    max-width: 300px;
+    max-width: 200px;
 }
 
 footer p {
@@ -290,4 +297,12 @@ footer img {
     padding: 2em 0;
     text-transform: uppercase;
     font-size: 0.75em;
+}
+
+@media only screen and (max-width:600px){
+
+.about img {
+    display: none;
+}
+
 }
