@@ -22,11 +22,12 @@ nav {
     background-color: rgb(245, 245, 245);
 }
 
-h1 {
+.superwatermelon {
     align-self: center;
     letter-spacing: 1px;
     color: rgb(242, 36, 80);
     font-size: 18px;
+    text-transform: uppercase;
 }
 
 p {
